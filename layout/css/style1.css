@@ -32,9 +32,19 @@ a:hover {
 	background: #FFFFFF;
 }
 
+#action a img, #action img, #full-width-content a img, #full-width-content img {
+	background: none;
+}
+
 #content a:hover img, #full-width-content a:hover img {
 	border: 5px solid #cccccc;	
 }
+
+#action a:hover img, #full-width-content a:hover img {
+  border: 5px solid RGBA(255,255,255,0);
+	opacity: 0.8; 
+}
+
 
 /* CLASSES */
 

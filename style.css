@@ -124,11 +124,13 @@ h6 {font-size: 11px}
 	
 }
 
-#header-inner a#logo {
-	text-indent: -99999px;
-	display: block;
-	width: 320px;
-	height: 49px;
+
+
+#header-inner img#logo {
+  float: left;
+  margin: -1px;
+  padding-right: 10px;
+
 }
 
 #openCloseIdentifier {
@@ -275,7 +277,7 @@ a.active:hover {
 
 #home-display {
 	padding: 10px;
-	margin: 0 10px 10px 10px;
+	margin: 0 10px 20px 10px;
 }
 
 #home-slogan {
@@ -293,13 +295,22 @@ a.active:hover {
 
 .home-box {
 	width: 300px;
-	margin: 0 10px;
+	margin: 10px 10px;
 	float: left;
 	text-align: left;
 	position: relative;
 	overflow: hidden;
 	display: inline;
 }
+
+.home-box a {
+	padding-left: 30px;
+}
+
+.home-box a:hover {
+	opacity: 0.8;
+}
+
 
 #main-inner .home-box h2 {
 	font-size: 19px;
@@ -324,7 +335,18 @@ a.active:hover {
 }
 
 .footer-box {
-	width: 220px;
+	width: 250px;
+	margin: 0 10px;
+	float: left;
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+	font-size: 11px;
+	display: inline;
+}
+
+.footer-box-vk {
+	width: 400px;
 	margin: 0 10px;
 	float: left;
 	text-align: left;
@@ -707,6 +729,11 @@ a.active:hover {
 	overflow: hidden;
 }
 
+#action img {
+  margin-left: 220px;
+}
+
+
 #main-inner #content h2.title {
 	margin-left: 0px;
 	font-size: 30px;
@@ -735,9 +762,33 @@ a.active:hover {
 	font-size: 11px;
 }
 
+#sidebar .widget-reviews img {
+  float: left;
+	padding-right: 5px;
+  padding-bottom: 5px;
+  
+}
+
+#sidebar .widget img {
+
+	/* padding-right: 5px;
+  #padding-bottom: 5px; */
+  
+}
+
+#sidebar .widget-application img {
+  width: 185px;
+  margin-bottom: -10px;
+}
+
+#sidebar .widget-application img:hover {
+  opacity: 0.8;
+}
+
+
 #sidebar h2 {
 	font-size: 20px;
-	margin: 0 0 10px 0;
+	margin: 10px 0 15px 5px;
 }
 
 #sidebar .widget li a {
