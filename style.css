@@ -301,9 +301,15 @@ a.active:hover {
 	position: relative;
 	overflow: hidden;
 	display: inline;
+  height: 500px;
 }
 
 .home-box a {
+	/* padding-left: 30px; */
+  color: #666666;
+}
+
+.home-box a#btn {
 	padding-left: 30px;
 }
 
