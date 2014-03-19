@@ -132,7 +132,7 @@
 
                 <div class="widget widget-application rounded-10">   
                                    <h2>Отправить заявку</h2>
-                 <p><a href="" ><img src="../images/application.png"></a></p>
+                 <p><a href="#contact"><img src="../images/application.png"></a></p>
 
 				        </div><!-- .widget (end) -->
                 
@@ -165,15 +165,56 @@ Donec rutrum, est vel posuere congue, arcu mauris euismod libero, eget mattis es
 Integer in blandit lorem. Curabitur iaculis ornare egestas. Vivamus imperdiet accumsan ipsum, sed convallis dolor imperdiet eget. Cras semper arcu ut est vehicula malesuada. Cras vitae augue nec erat accumsan varius. Sed euismod suscipit ultricies. Fusce sed dapibus elit. Mauris adipiscing turpis arcu, nec lacinia erat. Cras cursus scelerisque dui, vel facilisis lorem imperdiet sed. Integer et sapien augue, ac volutpat sapien. Mauris molestie, tortor id tristique ultrices, lorem nisi molestie libero, et ornare ipsum libero eu nibh. Pellentesque ac porta eros. Ut gravida interdum nisl sit amet faucibus. Sed odio turpis, consequat ac scelerisque nec, fermentum at velit. Quisque nibh massa, sodales sit amet placerat eu, auctor quis velit. Nulla purus nunc, commodo nec dapibus ut, porttitor et lacus. Mauris non libero leo, non vulputate nisi. 
 </p>       
 
-        <div id="action">
-        <a href="#"><img src="../images/free-lesson-action.png"></a>
-        </div>
+                    <div id="contact" class="rounded-10">
+                     
+                        <form action="#" method="post" id="">
+                        	<h2>Запишитесь на пробное, бесплатное занятие:</h2><br>
+                            <fieldset>
+                                <ol>
+                                    <li>
+                                        <label for="name" class="name">Ваше имя:</label>
+                                        <input type="text" name="name" id="name" value="" class="required" />
+                                    </li>
+                                    <li>
+                                        <label for="email" class="name">E-mail:</label>
+                                        <input type="text" name="email" id="email" value="" class="required" />
+                                    </li>
+                                    <li>
+                                        <label for="email" class="name">Телефон:</label>
+                                        <input type="text" name="phone" id="phone" value="" class="required" />
+                                    </li>
+                                    <li>
+                                    	<label for="submit" class="name">&nbsp;</label>
+                                        <input type="submit" id="submit" value="Записаться!" />
+                                        <input type="hidden" name="submitted" id="submitted" value="true" />
+                                    </li>
+                                </ol>
+                            </fieldset>
+                        </form>
+        
+                        <div id="sent">
+                            <h3>Your message has been sent!</h3>
+                            <p>We'll be in touch soon.</p>
+                        </div>
+       
+                        28 человек уже записались через сайт Rostov-English.ru
+                        <br>
+                        <p>В бесплатное занятие входит:</p>
+                        <li>Тестирование, с целью выявления текущего уровня английского.<br></li>
+                        <li>1 академический час занятия английским языком в группе.</li>
 
-           <br>
+                        
+                    </div><!-- #contact (end) -->
+
+        <!-- <div id="action">
+        <a href="#"><img src="../images/free-lesson-action.png"></a>
+        </div> -->
+
+        <!--   <br>
            <div id="vk_comments"></div>
            <script type="text/javascript">
            VK.Widgets.Comments("vk_comments", {limit: 10, width: "700", attach: "*"});
-           </script>
+           </script> -->
 
 			</div><!-- #content (end) -->
            
