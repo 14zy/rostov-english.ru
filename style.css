@@ -148,88 +148,21 @@ h6 {font-size: 11px}
 	height: 46px;
 	width: 294px;
 	float: right;
+  padding-top: 4px;
 }
 
-#social-content ul {
-	float: right;
-	margin-right: 3px;
+#social-content a:hover {
+	opacity: 0.8;	
 }
 
-#social-content li {
-	float: left;
-	padding: 5px 2px;
-	display: inline;
+#social-tab { 
+margin-top: -4px;
 }
 
-#social-content a#rss {
-	background: url('layout/images/social/rss.png') 0 2px no-repeat;
-	width: 32px;
-	height: 34px;
-	display: block;
-	text-indent: -99999px;
+#social-tab a:hover{ 
+	opacity: 0.8;
 }
 
-#social-content a#facebook {
-	background: url('layout/images/social/facebook.png') 0 2px no-repeat;
-	width: 32px;
-	height: 34px;
-	display: block;
-	text-indent: -99999px;
-}
-
-#social-content a#twitter {
-	background: url('layout/images/social/twitter.png') 0 2px no-repeat;
-	width: 32px;
-	height: 34px;
-	display: block;
-	text-indent: -99999px;
-}
-
-#social-content a#flickr {
-	background: url('layout/images/social/flickr.png') 0 2px no-repeat;
-	width: 32px;
-	height: 34px;
-	display: block;
-	text-indent: -99999px;
-}
-
-#social-content a#linkedin {
-	background: url('layout/images/social/linkedin.png') 0 2px no-repeat;
-	width: 32px;
-	height: 34px;
-	display: block;
-	text-indent: -99999px;
-}
-
-#social-content a#myspace {
-	background: url('layout/images/social/myspace.png') 0 2px no-repeat;
-	width: 32px;
-	height: 34px;
-	display: block;
-	text-indent: -99999px;
-}
-
-#social-content a#youtube {
-	background: url('layout/images/social/youtube.png') 0 2px no-repeat;
-	width: 32px;
-	height: 34px;
-	display: block;
-	text-indent: -99999px;
-}
-
-#social-content a#digg {
-	background: url('layout/images/social/digg.png') 0 2px no-repeat;
-	width: 32px;
-	height: 34px;
-	display: block;
-	text-indent: -99999px;
-}
-
-#social-content a#rss:hover, #social-content a#facebook:hover, #social-content a#twitter:hover, #social-content a#flickr:hover, #social-content a#linkedin:hover, #social-content a#myspace:hover, #social-content a#youtube:hover, #social-content a#digg:hover {
-	background-position: 0 0;	
-}
-
-#social-tab { /* No styles needed. */ }
 
 a.btn-slide {
 	display: block;
@@ -371,6 +304,11 @@ a.active:hover {
 	padding: 3px 0;
 	margin: 12px 0;
 }
+
+.footer-box a:hover{
+	opacity: 0.8;
+}
+
 
 .footer-box .pad {
 	padding: 0 20px;
