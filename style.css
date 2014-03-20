@@ -116,22 +116,26 @@ h6 {font-size: 11px}
 	position: relative;
 }
 
+
 #header-inner h1 {
 	position: absolute;
 	top: 28px;
 	left: 10px;
-	margin-left: 10px;
-	
+	margin-left: 10px;	
 }
 
+#header-inner h1:hover {
+  opacity: 0.8;
+}
 
 
 #header-inner img#logo {
   float: left;
   margin: -1px;
   padding-right: 10px;
-
 }
+
+
 
 #openCloseIdentifier {
 	display: none;	
