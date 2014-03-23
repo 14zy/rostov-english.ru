@@ -553,7 +553,7 @@ a.active:hover {
 
 #contact {
 	position: relative;
-	padding: 20px;
+	padding: 5px 20px 20px 20px;
 }
 
 #contact #sent {
