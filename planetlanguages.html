@@ -201,7 +201,35 @@
            
 				<h2 class="title">Планета Языков</h2>
 <p>«Планета языков» - современный языковой центр г. Ростова-на-Дону. Мы работаем с 2001 года. И с каждым годом у нас добавляются все новые и новые языковые курсы. </p>
-<img src="planetlanguages/images/photo1.jpg" alt="Фотографии" width="690"/>
+                            <script type="text/javascript">
+                             $(function() {
+                                 $('#slideshow').cycle({
+                                     fx:     'fade',
+                                     timeout: 6000,
+                                     pager:  '#slideshow-nav',
+                                     pagerAnchorBuilder: function(idx, slide) {
+                                         // return sel string for existing anchor
+                                         return '#slideshow-nav li:eq(' + (idx) + ') a';
+                                     },
+                                     speed:  'slow'
+                                 });
+                    
+                                 $('#direct').click(function() {
+                                     $('#nav li:eq(2) a').triggerHandler('click');
+                                     return false;
+                                 });
+                        
+                             });
+                             </script>
+                         	<div id="slideshow-wrapper-page">
+                          <div id="slideshow">
+                            	<img src="planetlanguages/images/photo1.jpg" alt="Фотография языкового центра Планета Языков" title="Фотографии языкового центра 'Планета Языков'" width="690">
+                            	<img src="planetlanguages/images/photo2.jpg" alt="Фотография языкового центра Планета Языков" title="Фотографии языкового центра 'Планета Языков'" width="690">
+                            	<img src="planetlanguages/images/photo3.jpg" alt="Фотография языкового центра Планета Языков" title="Фотографии языкового центра 'Планета Языков'" width="690">
+                            	<img src="planetlanguages/images/photo4.jpg" alt="Фотография языкового центра Планета Языков" title="Фотографии языкового центра 'Планета Языков'" width="690">
+                            	<img src="planetlanguages/images/photo5.jpg" alt="Фотография языкового центра Планета Языков" title="Фотографии языкового центра 'Планета Языков'" width="690">
+                          </div><!-- #slideshow (end) -->
+                   				</div><!-- #slideshow-wrapper (end) -->
 
 <h3>Мы растём. Почему?</h3>
 

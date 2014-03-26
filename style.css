@@ -786,6 +786,13 @@ a.active:hover {
 	overflow: hidden;
 }
 
+#slideshow-wrapper-page {
+	width: 700px;
+	height: 530px;
+	position: relative;
+	overflow: hidden;
+}
+
 #slideshow {
 	z-index: 1;
 }

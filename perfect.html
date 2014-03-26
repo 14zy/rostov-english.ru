@@ -230,7 +230,34 @@
 <li>дружеское общение;</li>
 <li>доступные цены и гибкая система скидок.</li>
 </ul>
-<img src="perfect/images/photo1.jpg" alt="Фотографии" width="690"/>
+                            <script type="text/javascript">
+                             $(function() {
+                                 $('#slideshow').cycle({
+                                     fx:     'fade',
+                                     timeout: 6000,
+                                     pager:  '#slideshow-nav',
+                                     pagerAnchorBuilder: function(idx, slide) {
+                                         // return sel string for existing anchor
+                                         return '#slideshow-nav li:eq(' + (idx) + ') a';
+                                     },
+                                     speed:  'slow'
+                                 });
+                    
+                                 $('#direct').click(function() {
+                                     $('#nav li:eq(2) a').triggerHandler('click');
+                                     return false;
+                                 });
+                        
+                             });
+                             </script>
+                         	<div id="slideshow-wrapper-page">
+                          <div id="slideshow">
+                            	<img src="perfect/images/photo1.jpg" alt="Фотография языкового центра 'Совершенство'" title="Фотографии языкового центра 'Совершенство'" width="690">
+                            	<img src="perfect/images/photo2.jpg" alt="Фотография языкового центра 'Совершенство'" title="Фотографии языкового центра 'Совершенство'" width="690" >
+                            	<img src="perfect/images/photo3.jpg" alt="Фотография языкового центра 'Совершенство'" title="Фотографии языкового центра 'Совершенство'" width="690">
+                          </div><!-- #slideshow (end) -->
+                   				</div><!-- #slideshow-wrapper (end) -->
+
 <p>Внутренний стандарт качества преподавания в Европейском Языковом центре «Совершенство» соответствует международному уровню и принятие нашего Центра в Международную Ассоциацию <a title="Аккредитация" href="http://ec-p.ru/about/accreditation/">ATEEL (Association for the teaching of English and European Languages) </a>подтверждает это.</p>
 <h3>Услуги нашего центра:</h3>
 <ul>
