@@ -161,6 +161,7 @@ h6 {font-size: 11px}
 
 #social-tab { 
 margin-top: -4px;
+float: right;
 }
 
 #social-tab a:hover{ 
@@ -553,8 +554,52 @@ a.active:hover {
 
 #contact {
 	position: relative;
-	padding: 5px 20px 20px 20px;
+	width: 670px;
+	padding: 10px 10px 10px 20px;
+	margin: 20px 10px;
+  float: right;
+	overflow: hidden;
 }
+
+#application {
+	position: relative;
+	width: 670px;
+	padding: 10px 10px 10px 20px;
+	margin: 20px 10px;
+  float: right;
+	overflow: hidden;
+  background-color: #ffffff;
+}
+
+#address {
+	position: relative;
+	width: 700px;
+	padding: 0px 0px 5px 0px;
+	margin: 0px 10px;
+  float: right;
+	overflow: hidden;
+  background-color: #ffffff;
+}
+
+#address h2, p{
+	padding-left: 10px;
+}
+
+
+#comments {
+	position: relative;
+	width: 700px;
+	padding: 0px 0px 0px 0px;
+	margin: 20px 10px;
+  float: right;
+	overflow: hidden;
+  background-color: #ffffff;
+}
+
+#address h2{
+	padding-left: 10px;
+}
+
 
 #contact #sent {
 	display: none;
@@ -672,9 +717,11 @@ a.active:hover {
 
 #content {
 	float: right;
-	width: 700px;
+	width: 680px;
 	margin: 0 10px;
 	overflow: hidden;
+  background-color: #ffffff;
+  padding: 10px 10px 10px 10px;
 }
 
 #action img {
@@ -683,7 +730,7 @@ a.active:hover {
 
 
 #main-inner #content h2.title {
-	margin-left: 0px;
+	margin-left: 10px;
 	font-size: 30px;
 }
 
@@ -725,8 +772,8 @@ a.active:hover {
 }
 
 #sidebar .widget-application img {
-  width: 185px;
-  margin-bottom: -10px;
+  margin-bottom: -15px;
+  margin-left: -10px;
 }
 
 #sidebar .widget-application img:hover {
