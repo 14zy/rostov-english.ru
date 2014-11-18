@@ -270,6 +270,11 @@ a.active:hover {
 	padding: 20px;
 }
 
+.home-box .pad a:hover{
+	text-decoration: none;
+  color: #666666;
+}
+
 /* FOOTER ELEMENTS */
 
 #footer-box-container {
