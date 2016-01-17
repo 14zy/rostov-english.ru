@@ -1,9 +1,9 @@
 currentSchool = schools[window.school];
 
-$("#header").load('layout/templates/_header.html');
-$("#footer").load('layout/templates/_footer.html');
+$("#header").load('layout/templates/header.html');
+$("#footer").load('layout/templates/footer.html');
 
-$("#sidebar").load('layout/templates/_sidebar.html', function() {
+$("#sidebar").load('layout/templates/sidebar.html', function() {
   $("#imgLogo").attr("src", window.school + "/images/logo.png");
   $("#txtYear").html(currentSchool.year);
   $("#txtAddress1").html(currentSchool.contacts.adressess.address1);
