@@ -1,0 +1,75 @@
+<div class="widget rounded-10">
+
+  <img id='imgLogo' src="" width="190px">
+  <p>
+    <strong>Дата основания:</strong>
+    <text id="txtYear"></text></p>
+  <p>
+    <strong>Адрес:</strong>
+    <a href="#address"><text id="txtAddress1"></text></a>
+  </p>
+  <p>
+    <strong>Телефон:</strong>
+    <a id="linkPhone" href=""><text id="txtPhone"></text></a>
+  </p>
+  <p>
+    <strong>Сайт:</strong>
+    <a id="linkWebsite" href=""><text id="txtWebsite"></text></a>
+  </p>
+  <p>
+    <strong>Проголосовать:</strong>
+  </p>
+  <p>
+    <div id="ok_shareWidget"></div>
+  </p>
+  <script>
+    !function(d, id, did, st) {
+      var js = d.createElement("script");
+      js.src = "http://connect.ok.ru/connect.js";
+      js.onload = js.onreadystatechange = function() {
+        if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+          if (!this.executed) {
+            this.executed = true;
+            setTimeout(function() {
+              OK.CONNECT.insertShareWidget(id, did, st);
+            }, 0);
+          }
+        }
+      };
+      d.documentElement.appendChild(js);
+    }(document, "ok_shareWidget", document.URL, "{width:165,height:35,st:'rounded',sz:30,ck:1}");
+  </script>
+
+  <div id="vk_like"></div>
+  <script type="text/javascript">
+    VK.Widgets.Like("vk_like", {
+      type: "button",
+      height: 24
+    });
+  </script>
+
+</div>
+<!-- .widget (end) -->
+
+<div class="widget widget-application rounded-10">
+  <h2>On-Line запись</h2>
+  <p>
+    <a href="#application" onclick="yaCounter24370156.reachGoal('PAGE-WIDGET-BTN-ONLINE'); return true;"><img src="images/btn_send5.3.png" width="190px"></a>
+  </p>
+</div>
+<!-- .widget (end) -->
+
+<div class="widget widget-application rounded-10">
+      <h2>Мы ВКонтакте</h2>
+        <div id="vk_groups2"></div>
+      </div>
+
+<div class="widget widget-reviews rounded-10">
+  <h2>Отзывы</h2>
+  <p>Отзывов пока нет.</p>
+  <p>
+    <a id='addReview' href="">Добавить отзыв</a>
+  </p>
+
+</div>
+<!-- .widget (end) -->
